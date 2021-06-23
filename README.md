@@ -155,7 +155,7 @@ The handler error can be thrown from within a [handler function](#the-handler-fu
 
 ##### Usage
 
-`const { handlerError } = require('@jrh-works/handle')`
+`const { handlerError } = require('@jrh-works/route')`
 
 ##### Syntax
 
@@ -183,7 +183,7 @@ handlerError(message, options)
 ## Usage Example
 
 ```javascript
-const { configureRoute, handlerError } = require('@jrh-works/handle')
+const { configureRoute, handlerError } = require('@jrh-works/route')
 const log = require('./my-logger')
 
 const route = configureRoute({ log })
